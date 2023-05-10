@@ -1,0 +1,7 @@
+name: drupal10 module
+type: Module
+description: 'drupal 10 welcome message'
+package: 'welcome'
+core_version_requirment: ^9 || ^10
+core: 10.x
+ *
