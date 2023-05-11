@@ -1,0 +1,27 @@
+uuid: 4966d323-df80-49c3-8c3e-a714c0b5000d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_float_list
+field_name: field_float_list
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: 10.8
+      label: drupal10
+    -
+      value: 9.0
+      label: drupal9
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

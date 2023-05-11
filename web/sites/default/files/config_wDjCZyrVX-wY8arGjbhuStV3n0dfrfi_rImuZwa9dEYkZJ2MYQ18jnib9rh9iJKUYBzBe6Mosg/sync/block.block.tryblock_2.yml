@@ -1,0 +1,44 @@
+uuid: 7ded8e10-9fd7-4f8d-822e-2cc38d790eed
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:37b8e115-66d0-427f-99d2-3df01e813122'
+  module:
+    - block_content
+    - taxonomy
+    - user
+  theme:
+    - tara
+id: tryblock_2
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:37b8e115-66d0-427f-99d2-3df01e813122'
+settings:
+  id: 'block_content:37b8e115-66d0-427f-99d2-3df01e813122'
+  label: 'try block '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      tags: tags

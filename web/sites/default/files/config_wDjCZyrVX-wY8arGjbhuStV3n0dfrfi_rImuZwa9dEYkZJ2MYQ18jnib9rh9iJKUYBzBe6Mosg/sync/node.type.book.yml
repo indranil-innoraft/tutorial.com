@@ -1,0 +1,18 @@
+uuid: da370e9b-2bae-49d5-b126-1f900a723e4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Book
+type: book
+description: 'book information.'
+help: 'Enter book details.'
+new_revision: true
+preview_mode: 1
+display_submitted: false

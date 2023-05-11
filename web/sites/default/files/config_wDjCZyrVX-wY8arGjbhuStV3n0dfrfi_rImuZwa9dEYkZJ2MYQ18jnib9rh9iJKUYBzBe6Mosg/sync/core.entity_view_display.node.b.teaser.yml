@@ -1,0 +1,23 @@
+uuid: dbcd32e4-aedb-42cd-9cfa-48c8f47f4e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.b.field_title_b
+    - node.type.b
+  module:
+    - user
+id: node.b.teaser
+targetEntityType: node
+bundle: b
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_title_b: true
+  langcode: true

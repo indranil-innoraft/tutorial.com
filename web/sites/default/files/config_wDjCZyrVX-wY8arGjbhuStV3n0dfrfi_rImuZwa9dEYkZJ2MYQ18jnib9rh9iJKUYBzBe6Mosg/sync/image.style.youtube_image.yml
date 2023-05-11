@@ -1,0 +1,14 @@
+uuid: 8fa62525-91b1-4cd1-996a-eb6dd78dca49
+langcode: en
+status: true
+dependencies: {  }
+name: youtube_image
+label: 'youtube image'
+effects:
+  010168db-71af-424e-8fe2-4d32208597d8:
+    uuid: 010168db-71af-424e-8fe2-4d32208597d8
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

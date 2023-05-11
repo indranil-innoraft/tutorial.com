@@ -1,0 +1,12 @@
+uuid: ece8749a-4b9d-4b5d-b7a5-56e0c5925da8
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'contact us'
+recipients:
+  - indranil.roy@gmail.com
+reply: ''
+weight: 0
+message: 'thanks for the submission.'
+redirect: ''

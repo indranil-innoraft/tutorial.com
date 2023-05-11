@@ -1,0 +1,21 @@
+uuid: 2c8d8f14-0725-4734-9cd0-7f81f1b81a0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_normal_text
+field_name: field_normal_text
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

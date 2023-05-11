@@ -1,0 +1,33 @@
+uuid: e81f266a-d77f-4ea4-a31d-153430806a1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_drupal_version
+field_name: field_drupal_version
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Drupal 10'
+      label: 'Drupal 10'
+    -
+      value: 'Drupal 9'
+      label: 'Drupal 9'
+    -
+      value: 'Drupal 8'
+      label: 'Drupal 8'
+    -
+      value: 'Drupal 7'
+      label: 'Drupal 7'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

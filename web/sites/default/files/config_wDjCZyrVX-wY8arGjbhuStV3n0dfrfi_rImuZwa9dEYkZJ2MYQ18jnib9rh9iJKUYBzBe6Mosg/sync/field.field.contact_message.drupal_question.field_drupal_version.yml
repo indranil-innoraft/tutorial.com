@@ -1,0 +1,21 @@
+uuid: c121d067-cd27-4c9a-a605-0eee2dea12a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.drupal_question
+    - field.storage.contact_message.field_drupal_version
+  module:
+    - options
+id: contact_message.drupal_question.field_drupal_version
+field_name: field_drupal_version
+entity_type: contact_message
+bundle: drupal_question
+label: 'Drupal Version'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

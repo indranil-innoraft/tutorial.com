@@ -1,0 +1,20 @@
+uuid: 02bc5330-4902-4e99-b2e0-51ae449541b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_decimal
+field_name: field_decimal
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 5c13e27c-e951-426a-95b4-fd6ddc92d9d3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:09a2e507-afcc-4d59-ac75-de6371656f19'
+  module:
+    - block_content
+  theme:
+    - vani
+id: welcome
+theme: vani
+region: content_home
+weight: 0
+provider: null
+plugin: 'block_content:09a2e507-afcc-4d59-ac75-de6371656f19'
+settings:
+  id: 'block_content:09a2e507-afcc-4d59-ac75-de6371656f19'
+  label: Welcome
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

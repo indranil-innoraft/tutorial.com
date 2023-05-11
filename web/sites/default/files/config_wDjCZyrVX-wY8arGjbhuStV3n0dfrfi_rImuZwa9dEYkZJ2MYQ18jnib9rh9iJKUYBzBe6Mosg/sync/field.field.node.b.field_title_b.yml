@@ -1,0 +1,19 @@
+uuid: 3f333885-ef15-4641-b4c3-08bf63b52e94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_b
+    - node.type.b
+id: node.b.field_title_b
+field_name: field_title_b
+entity_type: node
+bundle: b
+label: title
+description: 'B title'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 74fe626c-c859-4662-ae0e-a63ab4a1d8df
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Book Author'
+type: book_author
+description: 'Book author details.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

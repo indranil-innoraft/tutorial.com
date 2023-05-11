@@ -1,0 +1,25 @@
+uuid: acd4c61c-26c4-47c0-8c23-b90afa1bd04d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:37b8e115-66d0-427f-99d2-3df01e813122'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tryblock
+theme: tara
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:37b8e115-66d0-427f-99d2-3df01e813122'
+settings:
+  id: 'block_content:37b8e115-66d0-427f-99d2-3df01e813122'
+  label: 'try block '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

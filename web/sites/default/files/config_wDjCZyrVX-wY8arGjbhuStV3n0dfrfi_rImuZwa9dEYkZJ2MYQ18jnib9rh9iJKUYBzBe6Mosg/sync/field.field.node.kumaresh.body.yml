@@ -1,0 +1,23 @@
+uuid: ac9b6e57-0eeb-47c8-99ef-1c5304fd8099
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kumaresh
+  module:
+    - text
+id: node.kumaresh.body
+field_name: body
+entity_type: node
+bundle: kumaresh
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

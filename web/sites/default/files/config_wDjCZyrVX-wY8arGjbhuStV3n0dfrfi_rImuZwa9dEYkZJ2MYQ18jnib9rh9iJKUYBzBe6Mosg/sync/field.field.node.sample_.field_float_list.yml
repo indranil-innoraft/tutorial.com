@@ -1,0 +1,21 @@
+uuid: fc85122d-1c99-4bce-a8cd-d5c788aa6e87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_float_list
+    - node.type.sample_
+  module:
+    - options
+id: node.sample_.field_float_list
+field_name: field_float_list
+entity_type: node
+bundle: sample_
+label: 'float list'
+description: 'Please selete drupal version.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

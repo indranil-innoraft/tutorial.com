@@ -1,0 +1,18 @@
+uuid: 15b4b166-d992-4e34-86b6-a709eb416350
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Kumaresh
+type: kumaresh
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,24 @@
+uuid: 91231a60-d337-45ea-a91b-caafeabc5bb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_whats_the_date_today
+    - node.type.sample_
+  module:
+    - datetime
+id: node.sample_.field_whats_the_date_today
+field_name: field_whats_the_date_today
+entity_type: node
+bundle: sample_
+label: 'whats the date today'
+description: 'this is one week  later.'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+1 week 2 days 4 hours 2 seconds'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

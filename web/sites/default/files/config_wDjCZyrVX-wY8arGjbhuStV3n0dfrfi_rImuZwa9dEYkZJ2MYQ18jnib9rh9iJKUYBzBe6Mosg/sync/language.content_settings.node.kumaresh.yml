@@ -1,0 +1,11 @@
+uuid: d59f1a70-aad6-4865-81ea-6a243c8ed1e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.kumaresh
+id: node.kumaresh
+target_entity_type_id: node
+target_bundle: kumaresh
+default_langcode: site_default
+language_alterable: false

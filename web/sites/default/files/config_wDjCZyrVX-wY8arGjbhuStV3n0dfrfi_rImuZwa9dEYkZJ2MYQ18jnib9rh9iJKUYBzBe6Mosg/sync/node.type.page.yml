@@ -1,0 +1,21 @@
+uuid: 51b26709-2557-40f6-a9ec-19c936bd1e97
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Basic page'
+type: page
+description: 'Indranil roy basic page'
+help: "Explanation or submission guidelines this text\r\n "
+new_revision: true
+preview_mode: 1
+display_submitted: true

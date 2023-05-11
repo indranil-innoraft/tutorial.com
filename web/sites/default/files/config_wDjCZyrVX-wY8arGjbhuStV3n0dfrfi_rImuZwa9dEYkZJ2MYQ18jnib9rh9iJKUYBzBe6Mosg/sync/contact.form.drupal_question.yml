@@ -1,0 +1,21 @@
+uuid: 5719c838-0cb3-418e-899b-52dc771712df
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Send message'
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: drupal_question
+label: 'Drupal Question'
+recipients:
+  - indranil.roy@innoraft.com
+reply: ''
+weight: 0
+message: 'Thank you for the submission.'
+redirect: ''

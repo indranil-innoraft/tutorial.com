@@ -1,0 +1,29 @@
+uuid: 383f3824-605e-4086-9342-8fa524515c02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.b.field_title_b
+    - node.type.b
+  module:
+    - user
+id: node.b.default
+targetEntityType: node
+bundle: b
+mode: default
+content:
+  field_title_b:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

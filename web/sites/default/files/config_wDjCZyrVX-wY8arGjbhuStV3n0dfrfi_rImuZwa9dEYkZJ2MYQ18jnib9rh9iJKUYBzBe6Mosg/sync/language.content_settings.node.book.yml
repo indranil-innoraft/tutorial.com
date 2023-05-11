@@ -1,0 +1,11 @@
+uuid: 0fc5893e-9fc1-4904-b262-970707523384
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book
+id: node.book
+target_entity_type_id: node
+target_bundle: book
+default_langcode: site_default
+language_alterable: false

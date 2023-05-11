@@ -1,0 +1,63 @@
+uuid: a1daa6f9-b574-444d-b6f8-ae26f2dc2d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sample_.body
+    - field.field.node.sample_.field_comment_sample
+    - field.field.node.sample_.field_decimal
+    - field.field.node.sample_.field_enter_your_email
+    - field.field.node.sample_.field_float
+    - field.field.node.sample_.field_float_list
+    - field.field.node.sample_.field_formated_text
+    - field.field.node.sample_.field_formatted_log_text
+    - field.field.node.sample_.field_formatted_long_summary
+    - field.field.node.sample_.field_link
+    - field.field.node.sample_.field_list_text
+    - field.field.node.sample_.field_normal_text
+    - field.field.node.sample_.field_option_email
+    - field.field.node.sample_.field_plain_long
+    - field.field.node.sample_.field_timestamp
+    - field.field.node.sample_.field_whats_the_date_today
+    - field.field.node.sample_.field_your_option
+    - node.type.sample_
+  module:
+    - text
+    - user
+id: node.sample_.teaser
+targetEntityType: node
+bundle: sample_
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_comment_sample: true
+  field_decimal: true
+  field_enter_your_email: true
+  field_float: true
+  field_float_list: true
+  field_formated_text: true
+  field_formatted_log_text: true
+  field_formatted_long_summary: true
+  field_link: true
+  field_list_text: true
+  field_normal_text: true
+  field_option_email: true
+  field_plain_long: true
+  field_timestamp: true
+  field_whats_the_date_today: true
+  field_your_option: true
+  langcode: true
