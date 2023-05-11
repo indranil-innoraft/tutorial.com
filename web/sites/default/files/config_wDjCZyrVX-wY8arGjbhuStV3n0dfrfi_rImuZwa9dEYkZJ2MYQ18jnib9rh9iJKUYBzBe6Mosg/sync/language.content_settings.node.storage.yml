@@ -1,0 +1,11 @@
+uuid: c845f009-d34a-45f2-b34f-53c38902908d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.storage
+id: node.storage
+target_entity_type_id: node
+target_bundle: storage
+default_langcode: site_default
+language_alterable: false

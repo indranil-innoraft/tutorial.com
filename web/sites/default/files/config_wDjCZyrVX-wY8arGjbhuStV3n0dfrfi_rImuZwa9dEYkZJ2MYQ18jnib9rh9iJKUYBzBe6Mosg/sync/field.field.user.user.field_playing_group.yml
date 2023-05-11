@@ -1,0 +1,30 @@
+uuid: df736fc8-a2bb-499b-9885-3962e45591b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_playing_group
+    - taxonomy.vocabulary.players_group
+  module:
+    - user
+id: user.user.field_playing_group
+field_name: field_playing_group
+entity_type: user
+bundle: user
+label: 'playing group'
+description: 'playing groups goes here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      players_group: players_group
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

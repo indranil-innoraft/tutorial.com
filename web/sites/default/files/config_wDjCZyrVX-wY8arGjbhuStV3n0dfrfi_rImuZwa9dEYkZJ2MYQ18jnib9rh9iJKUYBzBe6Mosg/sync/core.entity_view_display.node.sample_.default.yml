@@ -1,0 +1,185 @@
+uuid: 5702e22f-04d9-417e-9bbd-57fb9c59641b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.sample_.body
+    - field.field.node.sample_.field_comment_sample
+    - field.field.node.sample_.field_decimal
+    - field.field.node.sample_.field_enter_your_email
+    - field.field.node.sample_.field_float
+    - field.field.node.sample_.field_float_list
+    - field.field.node.sample_.field_formated_text
+    - field.field.node.sample_.field_formatted_log_text
+    - field.field.node.sample_.field_formatted_long_summary
+    - field.field.node.sample_.field_link
+    - field.field.node.sample_.field_list_text
+    - field.field.node.sample_.field_normal_text
+    - field.field.node.sample_.field_option_email
+    - field.field.node.sample_.field_plain_long
+    - field.field.node.sample_.field_timestamp
+    - field.field.node.sample_.field_whats_the_date_today
+    - field.field.node.sample_.field_your_option
+    - node.type.sample_
+  module:
+    - comment
+    - datetime
+    - link
+    - options
+    - text
+    - user
+id: node.sample_.default
+targetEntityType: node
+bundle: sample_
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_comment_sample:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_decimal:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_enter_your_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_float:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_float_list:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_formated_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_formatted_log_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_formatted_long_summary:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_list_text:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_normal_text:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_option_email:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_plain_long:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_timestamp:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_whats_the_date_today:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_your_option:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

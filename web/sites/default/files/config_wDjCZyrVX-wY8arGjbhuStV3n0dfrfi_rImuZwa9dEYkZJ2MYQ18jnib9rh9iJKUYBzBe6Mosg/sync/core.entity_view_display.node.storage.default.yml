@@ -1,0 +1,33 @@
+uuid: b24a1c13-604b-49b0-96bd-2022c087e17b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.storage.field_store_image
+    - node.type.storage
+  module:
+    - image
+    - user
+id: node.storage.default
+targetEntityType: node
+bundle: storage
+mode: default
+content:
+  field_store_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

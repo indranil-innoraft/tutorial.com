@@ -1,0 +1,28 @@
+uuid: 6ccf9426-2769-4efa-929a-3858933a2206
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.sample_
+  module:
+    - link
+id: node.sample_.field_link
+field_name: field_link
+entity_type: node
+bundle: sample_
+label: Link
+description: 'Link should be external'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://www.youtube.com/results?search_query=internal+and+external+link+drupal+'
+    title: 'this content link'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

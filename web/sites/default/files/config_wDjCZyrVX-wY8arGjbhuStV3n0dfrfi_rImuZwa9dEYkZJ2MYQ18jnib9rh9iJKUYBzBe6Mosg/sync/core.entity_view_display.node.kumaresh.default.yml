@@ -1,0 +1,29 @@
+uuid: d040076a-b883-4ddf-8f12-7d2fafe25c58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.kumaresh.body
+    - node.type.kumaresh
+  module:
+    - text
+    - user
+id: node.kumaresh.default
+targetEntityType: node
+bundle: kumaresh
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: b2baf756-e412-460a-aff6-18f425f2e411
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enter_your_email
+    - node.type.sample_
+id: node.sample_.field_enter_your_email
+field_name: field_enter_your_email
+entity_type: node
+bundle: sample_
+label: 'Enter Your  Email'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: indranilroy836@gmail.com
+default_value_callback: ''
+settings: {  }
+field_type: email

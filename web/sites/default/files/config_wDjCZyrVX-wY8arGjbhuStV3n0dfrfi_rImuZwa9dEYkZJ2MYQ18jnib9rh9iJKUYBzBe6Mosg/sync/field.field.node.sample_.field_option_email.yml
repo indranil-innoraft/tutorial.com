@@ -1,0 +1,21 @@
+uuid: b0a9653b-5a84-4a44-8495-66eb2a1c7858
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_option_email
+    - node.type.sample_
+  module:
+    - contact_storage
+id: node.sample_.field_option_email
+field_name: field_option_email
+entity_type: node
+bundle: sample_
+label: 'option email'
+description: 'please enter option email.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: contact_storage_options_email

@@ -1,0 +1,21 @@
+uuid: e287c823-d414-461e-b1d6-3f0cf1e4d1e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_other_reference_2
+    - node.type.a
+id: node.a.field_other_reference_2
+field_name: field_other_reference_2
+entity_type: node
+bundle: a
+label: 'other reference 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

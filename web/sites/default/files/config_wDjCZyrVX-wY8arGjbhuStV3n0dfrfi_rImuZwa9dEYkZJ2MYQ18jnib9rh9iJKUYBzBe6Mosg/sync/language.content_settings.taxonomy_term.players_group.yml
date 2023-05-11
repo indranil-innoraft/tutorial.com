@@ -1,0 +1,11 @@
+uuid: bc9b71c0-d966-48df-ba41-9ed067cbd124
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.players_group
+id: taxonomy_term.players_group
+target_entity_type_id: taxonomy_term
+target_bundle: players_group
+default_langcode: site_default
+language_alterable: false

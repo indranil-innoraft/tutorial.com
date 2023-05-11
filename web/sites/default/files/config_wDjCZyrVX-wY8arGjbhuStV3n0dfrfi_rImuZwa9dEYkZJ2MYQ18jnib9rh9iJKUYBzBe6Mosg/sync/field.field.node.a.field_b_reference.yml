@@ -1,0 +1,29 @@
+uuid: e3c25333-2802-432d-aa00-2b9ee1856db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_b_reference
+    - node.type.a
+    - node.type.b
+id: node.a.field_b_reference
+field_name: field_b_reference
+entity_type: node
+bundle: a
+label: 'B reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      b: b
+    sort:
+      field: nid
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

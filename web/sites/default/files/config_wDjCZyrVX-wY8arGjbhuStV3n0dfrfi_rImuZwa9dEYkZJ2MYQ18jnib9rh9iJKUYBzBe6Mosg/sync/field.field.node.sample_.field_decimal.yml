@@ -1,0 +1,23 @@
+uuid: 24128442-544c-4d23-b845-96cf2dc10de7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_decimal
+    - node.type.sample_
+id: node.sample_.field_decimal
+field_name: field_decimal
+entity_type: node
+bundle: sample_
+label: decimal
+description: 'enter a decimal number with 10 digit with 2 number after decimal point.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10.0
+  max: 100.0
+  prefix: $
+  suffix: m
+field_type: decimal

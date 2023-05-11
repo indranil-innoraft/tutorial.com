@@ -1,0 +1,8 @@
+uuid: 8ee55bfd-9b28-4f7d-989d-eadc8216a3fd
+langcode: en
+status: true
+dependencies: {  }
+name: 'players group'
+vid: players_group
+description: 'It content all the playing options.'
+weight: 0

@@ -1,0 +1,23 @@
+uuid: b34db187-02a3-42aa-a429-73b8af788936
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formatted_long_summary
+    - node.type.sample_
+  module:
+    - text
+id: node.sample_.field_formatted_long_summary
+field_name: field_formatted_long_summary
+entity_type: node
+bundle: sample_
+label: 'formatted long summary'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: true
+field_type: text_with_summary

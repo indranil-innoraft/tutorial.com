@@ -1,0 +1,23 @@
+uuid: dc2693a9-3fda-4fcf-b0a6-6f2f713fd176
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.storage.field_store_image
+    - node.type.storage
+  module:
+    - user
+id: node.storage.teaser
+targetEntityType: node
+bundle: storage
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_store_image: true
+  langcode: true

@@ -1,0 +1,44 @@
+uuid: 7724a21f-559a-41c2-aadd-7e7128e9ac6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.a.field_b_reference
+    - field.field.node.a.field_comments_by_field
+    - field.field.node.a.field_file
+    - field.field.node.a.field_image_reference
+    - field.field.node.a.field_other_reference
+    - field.field.node.a.field_other_reference_2
+    - field.field.node.a.field_title
+    - field.field.node.a.field_users
+    - node.type.a
+  module:
+    - user
+id: node.a.teaser
+targetEntityType: node
+bundle: a
+mode: teaser
+content:
+  field_b_reference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_comments_by_field: true
+  field_file: true
+  field_image_reference: true
+  field_other_reference: true
+  field_other_reference_2: true
+  field_title: true
+  field_users: true
+  langcode: true

@@ -1,0 +1,25 @@
+uuid: 226a0cb4-919e-4c75-8980-84831beecc68
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fd5b861b-2bf1-4d2f-8f55-9d1086e0494a'
+  module:
+    - block_content
+  theme:
+    - vani
+id: serviceblock
+theme: vani
+region: content_home
+weight: 0
+provider: null
+plugin: 'block_content:fd5b861b-2bf1-4d2f-8f55-9d1086e0494a'
+settings:
+  id: 'block_content:fd5b861b-2bf1-4d2f-8f55-9d1086e0494a'
+  label: 'service block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

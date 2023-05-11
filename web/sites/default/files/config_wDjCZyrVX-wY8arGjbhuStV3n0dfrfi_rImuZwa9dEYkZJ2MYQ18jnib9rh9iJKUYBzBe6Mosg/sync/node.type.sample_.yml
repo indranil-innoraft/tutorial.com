@@ -1,0 +1,18 @@
+uuid: a015f143-170a-4742-a121-1f1273b9dc28
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Sample
+type: sample_
+description: 'Here i will try all the fields.'
+help: 'This is my sample content type.'
+new_revision: true
+preview_mode: 1
+display_submitted: true
