@@ -26,6 +26,7 @@
         "drupal/paragraphs": "^1.15",
         "drupal/quickedit": "^1.0",
         "drupal/search_api": "^1.29",
+        "drupal/slick": "^2.7",
         "drupal/smtp": "^1.2",
         "drupal/tara": "^10.0",
         "drupal/vani": "^10.0",
